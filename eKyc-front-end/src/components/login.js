@@ -77,8 +77,8 @@ class Login extends React.Component {
             <div>
                 <Form>
                     <Form.Group as={Col} md="4" controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" onChange={this.handleEmailChange}/>
+                        <Form.Label>Business Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Organizational Enter email" onChange={this.handleEmailChange}/>
                     </Form.Group>
 
                     <Form.Group as={Col} md="4" controlId="formBasicPassword">

@@ -78,17 +78,16 @@ class SignUp extends React.Component {
     render() {
         return (<div>
             <Jumbotron>
-                <h1>Welcome to Group L crypto finance!</h1>
+                <h1>Central Bank Network</h1>
                 <p>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
-                    </p>
+                    This is a simple hyperledger application for FinSec Framewrok demonstration using official documentation and open-source projects. 
+                </p>
             </Jumbotron>
             <Form>
 
                 <Form.Group as={Col} md="4" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" onChange={this.handleEmailChange} />
+                    <Form.Label>Admin Email address</Form.Label>
+                    <Form.Control type="email" placeholder="Please input organnizational email" onChange={this.handleEmailChange} />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                         </Form.Text>
@@ -101,11 +100,15 @@ class SignUp extends React.Component {
         
                 <Form.Group as={Col} md="4" controlId="formBasicRegister">
                     <Button variant="info" onClick={this.handleRegister}>
-                        Register
+                        Register 
                         </Button>{" "}
                         <Button variant="info" onClick={this.handleRegisterAsInstitute}>
-                        Register As Institution
+                        Implement in your Bank 
                         </Button>
+                        <Form.Text className="text-muted">
+                        Choose "Resgister" to join Central Bank Hyperledger Network <br/>
+                        Choose "Implement in your bank" to implement hyperledger for interbank tasks
+                        </Form.Text>
                 </Form.Group>
                 <Button variant="link" onClick={this.handleLoginLink}>
                     Already have an account?

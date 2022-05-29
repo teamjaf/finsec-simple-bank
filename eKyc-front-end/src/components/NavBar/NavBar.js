@@ -15,10 +15,10 @@ const NavBar = () => {
                     {/* <Link to="/verifyId">Verify</Link> */}
                 </li>
                 <li>
-                    <Link to="/clientData">Add Client Data</Link>
+                    <Link to="/clientData">Add New Bank</Link>
                 </li>
                 <li>
-                    <Link to="/viewData">View Data</Link>
+                    <Link to="/viewData">View Banks</Link>
                 </li>
             </ul>
         </nav>

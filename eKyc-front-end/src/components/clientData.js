@@ -39,7 +39,7 @@ const ClientData = (props) => {
 
         <Container fluid>
             <Row>
-                <Col md={2}><Form.Label>Full Name : </Form.Label></Col>
+                <Col md={2}><Form.Label>Admin Full Name : </Form.Label></Col>
                 <Col><Form.Label>{props.fullName}</Form.Label></Col>
             </Row>
             <Row>

@@ -70,7 +70,7 @@ const ClientData = (props) => {
             <Form>
                 <Form.Row>
                     <Form.Group as={Col} controlId="Full Name">
-                        <Form.Label>Full Name</Form.Label>
+                        <Form.Label>Admin Full Name</Form.Label>
                         <Form.Control placeholder="Enter full name" defaultValue={fullName} onChange={(e) => setfullName(e.target.value)} />
                     </Form.Group>
                 </Form.Row>
@@ -82,12 +82,12 @@ const ClientData = (props) => {
 
                 <Form.Group controlId="formGridAddress1">
                     <Form.Label>Address</Form.Label>
-                    <Form.Control placeholder="1234 Main St" defaultValue={address} onChange={(e) => setAddress(e.target.value)} />
+                    <Form.Control placeholder="66, Mohakhali, Dhaka" defaultValue={address} onChange={(e) => setAddress(e.target.value)} />
                 </Form.Group>
 
                 <Form.Group controlId="formGridSin">
-                    <Form.Label>Sin</Form.Label>
-                    <Form.Control placeholder="Enter SIN here" defaultValue={sin} onChange={(e) => setSin(e.target.value)} />
+                    <Form.Label>Trnx Amount</Form.Label>
+                    <Form.Control placeholder="Enter trnx amount here" defaultValue={sin} onChange={(e) => setSin(e.target.value)} />
                 </Form.Group>
 
                 <Button variant="primary" type="submit" onClick={handleSubmit}>
